@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block title %}
+        <title>Toggle features</title>
+        {% endblock %}
+    </head>
+    <body bgcolor="{{color}}">
+        {% block sidebar %}
+        <h1 align="right" style="">
+            Set your Theme<br>
+            <a href="/theme?color=dark">Dark</a> or
+            <a href="/theme?color=light">Light</a>
+        {% endblock %}
+    </body>
+    </html>
